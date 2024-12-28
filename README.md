@@ -1,5 +1,6 @@
 # pybrs
 A Python library for opening Super Mario Galaxy 1/2s "BRS" format, which controls what notes the NoteFairy (Rainbow Notes) plays. Made by me, some names in smg2insts.csv from SY24 & Lumi.
+To download, click the green button that says "Code" and then "Download Zip". 
 # Requirements
 - Python 3(.9 or newer?)
 - [pyjkernel](https://github.com/SunakazeKun/pyjkernel) for most scripts here (the ones involving jairemixseq). Install it using `pip install pyjkernel` in a command prompt window.
