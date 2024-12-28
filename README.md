@@ -56,6 +56,8 @@ The index in the BRS directly corresponds to the number in NoteFairy's obj_arg4.
 ### Preparing the MIDI
 Get the MIDI you want to import, open it in your favorite DAW (FL Studio, LMMS, etc.), and use the [SMG2 IBNK Soundfont Collection](https://mega.nz/file/od80zawY#84f9PZfn34_u00PGDpaOg80gNqpemgT_38THpMWQ8OU) to figure out what instrument you want to use.
 
+BRS is limited by memory, and doesn't support several MIDI features. Please keep that in mind as you decide what MIDIs to convert.
+
 The important part, though, is the track name. It should start with a `#`, and then the unique number identifying the BankProgNo. `#0103` for `S_Y_PERCSET_003`, for example. Once each track follows this format, you're ready to export it.
 
 Additionally, please make sure the MIDI you are using ends with `.mid`, and there is only one tempo used in the MIDI.
