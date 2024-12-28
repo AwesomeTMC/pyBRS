@@ -51,6 +51,8 @@ A demonstration is below.
 
 ![Demonstration of the above](README_0.gif)
 
+The index in the BRS directly corresponds to the number in NoteFairy's obj_arg4. Any invalid index will crash the game.
+
 ### Preparing the MIDI
 Get the MIDI you want to import, open it in your favorite DAW (FL Studio, LMMS, etc.), and use the [SMG2 IBNK Soundfont Collection](https://mega.nz/file/od80zawY#84f9PZfn34_u00PGDpaOg80gNqpemgT_38THpMWQ8OU) to figure out what instrument you want to use.
 
@@ -61,7 +63,7 @@ Additionally, please make sure the MIDI you are using ends with `.mid`, and ther
 Finally, before converting, make sure `player_speed` in `midi_to_brs.py` is right. It's 13 by default, which is the speed of Mario in an unmodified `MarioConst.arc`. If you modified that, or Luigi is the main character of your mod, change that. Luigi's speed is 15 in an unmodified `MarioConst.arc`.
 
 ### IMPORTANT NOTE
-If the player walks slow enough while collecting notes, it can break due to a bug in the game. Put the corresponding game's patches below in your riivolution XML to fix it.
+The duration can cause unexpected results due to a bug in the game. Put the corresponding game's patches below in your riivolution XML to fix it.
 
 SMG2:
 ```xml
