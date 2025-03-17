@@ -63,8 +63,6 @@ The important part, though, is the track name. It should start with a `#`, and t
 
 Additionally, please make sure the MIDI you are using ends with `.mid`, and there is only one tempo used in the MIDI.
 
-Finally, before converting, make sure `player_speed` in `midi_to_brs.py` is right. It's 13 by default, which is the speed of Mario in an unmodified `MarioConst.arc`. If you modified that, or Luigi is the main character of your mod, change that. Luigi's speed is 15 in an unmodified `MarioConst.arc`.
-
 ### IMPORTANT NOTE
 The duration can cause unexpected results due to a bug in the game. Put the corresponding game's patches below in your riivolution XML to fix it.
 
