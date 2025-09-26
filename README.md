@@ -75,10 +75,10 @@ SMG2:
 SMG:
 ```xml
 <!-- Fix long NoteFairy notes causing unexpected behavior - SMG -->
-<memory offset="0x8048bc4c" value="54a4043e" original="54a4063e"/> <!-- E -->
-<memory offset="0x8048BC48" value="54a4043e" original="54a4063e"/> <!-- J -->
-<memory offset="0x8048BC68" value="54a4043e" original="54a4063e"/> <!-- P -->
-<memory offset="0x8048DE90" value="54a4043e" original="54a4063e"/> <!-- K -->
+<memory offset="0x8048bc4c" value="54a5043e" original="54a5063e"/> <!-- E -->
+<memory offset="0x8048BC48" value="54a5043e" original="54a5063e"/> <!-- J -->
+<memory offset="0x8048BC68" value="54a5043e" original="54a5063e"/> <!-- P -->
+<memory offset="0x8048DE90" value="54a5043e" original="54a5063e"/> <!-- K -->
 ```
 Let me know if these break anything by [creating an issue](https://github.com/AwesomeTMC/pyBRS/issues/new/choose) on GitHub.
 
